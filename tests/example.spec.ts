@@ -27,7 +27,7 @@ test('iframe',async ({ page }) => {
   await frame2.locator('#hindichbx').check();
   await frame2.locator('#email').fill('taylor@example.com');
   await frame2.locator('#password').fill('ExamplePassword123');
-  // Optional: submit the form
+  
   // await frame2.locator('#registerbtn').click();
 });
 
